@@ -1,0 +1,81 @@
+/*Aplica a DBZ*/
+body{
+	background-color: #13102B;/*color de fondo*/
+	color: black;/*color de texto*/
+}
+
+#Barra a{ /*Estilo a las etiquetas a*/
+	text-decoration: none;
+	color: white;
+}
+
+#Barra a:hover{
+	text-decoration: underline;
+	color: #B340F0;
+}
+
+#Barra{
+	background: #000;
+	position: absolute;
+	left: 0;
+	top:  0;
+	display: block;
+	width: 100%;
+}
+
+#Barra ul{
+	list-style: none;
+}
+
+#Barra li{
+	float: left;
+}
+
+#Barra li a{
+	padding: 55px;/*Espacio entre elementos*/
+}
+
+img{
+	width: 100%;
+}
+/*Identificador de contenido*/
+
+#Contenido{
+	max-width: 100%;
+	position: relative;
+	top: 40px;
+	background-color: #D3C3E0;
+	margin: 0 auto;
+	padding: 2%;
+}
+
+#Contenido header{
+	height: 120px; /*alto*/
+	padding: 10px 20px;
+	background-color: ghostwhite;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#Principal{
+	height: 600px;
+	width: 45%;
+	float: left;
+	padding: 10px;
+}
+
+#Secundario{
+	width: 45%;
+	float: left;
+	padding: 10px;
+}
+
+#Contenido footer{
+	width: 100%;
+	background-color: #EBDDFF;
+	height: 20px;
+	clear: both;
+	border-radius: 1em;
+	text-align: center;
+}
+
